@@ -18,3 +18,8 @@ p {
     font-family: "Megrim", cursive;
     font-size: 25px;
 }
+
+img {
+    width: 180px;
+    height: 180px;
+}

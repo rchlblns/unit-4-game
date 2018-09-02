@@ -1,10 +1,17 @@
 body {
-    background-color: #2e1757;
+    background-image: url(../images/gplaypattern.png);
+}
+
+.container {
+    background-color: #29154f;
+    color: white;
 }
 
 h1 {
-    font-family: "Monoton", cursive;
-    font-size: 60px;
+    font-family: "Megrim", cursive;
+    font-size: 70px;
+    font-weight: bold;
+    padding: 5px;
 }
 
 p {

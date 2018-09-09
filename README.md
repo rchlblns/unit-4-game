@@ -4,7 +4,7 @@ This game is my Unit 4 homework submission for UT Austin's Houston Coding Bootca
 
 The objective of this assignment was to build an interactive game where the HTML is dynamically updated using the Jquery library.
 
-Click [here] (https://rchlblns.github.io/unit-4-game/) to preview the completed assignment. 
+Click [here](https://rchlblns.github.io/unit-4-game/) to preview the completed assignment. 
 
 ## How to Play
 
@@ -21,10 +21,10 @@ Click [here] (https://rchlblns.github.io/unit-4-game/) to preview the completed 
 ## Built With
 * HTML5
 * CSS3
-* [Twitter Bootstrap] (https://getbootstrap.com/)
+* [Twitter Bootstrap](https://getbootstrap.com/)
 * Javascript
-* [JQuery Library] (https://jquery.com/)
-* [Google Fonts] (https://fonts.google.com/)
+* [JQuery Library](https://jquery.com/)
+* [Google Fonts](https://fonts.google.com/)
 
 ## Acknowledgements
-* Gem images (https://www.freepik.com/free-photos-vectors/design) were created by Freepik
+* Gem images were created by Freepik (https://www.freepik.com/free-photos-vectors/design)

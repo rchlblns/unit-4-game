@@ -25,8 +25,9 @@ $(document).ready(function() {
 
     function playGame() {
 
+        
         var counter = 0;
-        $(".your-guess").text("Your guess: " + counter); 
+        $(".your-guess").text("Your points: " + counter); 
 
         //Generates random number 
         var targetNumber = Math.floor(Math.random() * (120-19) + 19);
@@ -39,6 +40,8 @@ $(document).ready(function() {
         $(".gem-buttons").on("click", function() {
             
         //Assigns random number to each click
+            
+            gemIsClicked = true;
             var gemValue = ($(this).attr("data-letter"));
             gemValue = parseInt(gemValue);
             //Adds every click to global counter
@@ -47,7 +50,7 @@ $(document).ready(function() {
             console.log(gemValue);
             console.log(counter);
             
-            $(".your-guess").text("Your guess: " + counter);
+            $(".your-guess").text("Your points: " + counter);
             
             if (counter === targetNumber) {
             alert("You win!");
@@ -69,7 +72,7 @@ $(document).ready(function() {
             
         });
     }
-
+    
     gemValues();
     playGame();
 
